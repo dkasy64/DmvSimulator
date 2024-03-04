@@ -3,12 +3,12 @@ public class DmvSimulator{
     public static void main(String[]args){
         SecureRandom random = new SecureRandom();
         System.out.println("Welcome to DMV simlator.");
-        int number = random.nextInt(100)+1;
+        int number = random.nextInt(200)+1;
         System.out.println("Your number is " + number + "\nPlease wait until your number is called.");
         boolean match = true;
         int caller = number+ 1;
         while(match){
-            if(caller > 100){
+            if(caller > 200){
                 caller = 1;
             }
             if(caller == number){
