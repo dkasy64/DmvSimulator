@@ -3,7 +3,7 @@ public class DmvSimulator{
     public static void main(String[]args){
         SecureRandom random = new SecureRandom();
         int miracle = random.nextInt(100)+1;
-        System.out.println("Welcome to DMV simlator.");
+        System.out.println("Welcome to DMV simulator.");
         int number = random.nextInt(200)+1;
         System.out.println("Your number is " + number + "\nPlease wait until your number is called.");
         boolean match = true;
@@ -16,7 +16,7 @@ public class DmvSimulator{
                 System.out.println(caller);
                 if(miracle <= 99){
                 System.out.println("You do not have the required paperwork, idiot.");
-                System.out.println("Go get your papers and never come back!");
+                System.out.println("Go get your papers and come back!\n No questons! Your holding up the line!");
                 System.out.println("AhahaHAhaHaha");
                 match = false;
                 } else{
