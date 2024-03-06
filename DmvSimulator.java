@@ -15,8 +15,7 @@ public class DmvSimulator{
                 System.out.println(caller);
                 System.out.println("You do not have the required paperwork, dummy.");
                 System.out.println("Go get your papers!");
-                System.out.println("AhahaHAhaHahagfjsdhfdhfghsgfsfgh");
-                System.out.println("AhahahahhahahhahHAHAahhaHAHAHHAH")
+                System.out.println("AhahaHAhaHaha");
                 match = false;
             }else{
                 System.out.println(caller);
